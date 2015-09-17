@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+     
+     <LinearLayout
+    android:layout_width="0dip"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:layout_weight="1"
+        >
+     </LinearLayout>
+    
+    <LinearLayout
+    android:layout_width="0dip"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:layout_weight="8"
+        >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        
+        <Button
+                android:id="@+id/hidden1"
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:background="@layout/make_outfit_btn"
+                android:enabled="false"
+                android:padding="0px"
+                android:scaleType="fitXY"
+                android:visibility="invisible" />
+    
+ <TextView
+        android:id="@+id/textView4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Weather Settings"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:layout_weight="1" />
+    <EditText
+        android:id="@+id/zip_input"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:ems="8"
+        android:inputType="number"
+        android:maxLength="5"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Zip Code: "
+        android:layout_weight="1" />
+
+    <CheckBox
+        android:id="@+id/checkCelsius"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Celsius"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Suggestion Settings"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:layout_weight="1" />
+
+        <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Minimum temperature for long pants" />
+        
+    <SeekBar
+        android:id="@+id/minLongPants"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+        <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Minimum temperature for shorts"
+        android:layout_weight="1" />
+    
+    <SeekBar
+        android:id="@+id/minTempShorts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+
+    
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Minimum temperature for short sleeves"
+        android:layout_weight="1" />
+
+    <SeekBar
+        android:id="@+id/minTempSShirt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+    
+    <Button
+        android:id="@+id/btnSave"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_weight="1" />
+
+    <Button
+                android:id="@+id/hidden2"
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:background="@layout/make_outfit_btn"
+                android:enabled="false"
+                android:padding="0px"
+                android:scaleType="fitXY"
+                android:visibility="invisible" />
+</LinearLayout>
+</LinearLayout>
+    <LinearLayout
+    android:layout_width="0dip"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+     />
+    
+</LinearLayout>

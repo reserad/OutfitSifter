@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="gender">
+        <item name="Male">Male</item>
+        <item name="Female">Female</item>
+    </string-array>
+    
+     <string-array name="genderValue">
+        <item name="Male">Male</item>
+        <item name="Female">Female</item>
+    </string-array>
+    
+    <string-array name="tShirts">
+        <item name="55">55 F (12.8 C)</item>
+        <item name="60">60 F (15.6 C)</item>
+        <item name="65">65 F (18.3 C)</item>
+        <item name="70">70 F (21.1 C)</item>
+    </string-array>
+    
+    <string-array name="tShirtsValues">
+        <item name="55">55</item>
+        <item name="60">60</item>
+        <item name="65">65</item>
+        <item name="70">70</item>
+    </string-array>
+    
+    <string-array name="shorts">
+        <item name="55">55 F (12.8 C)</item>
+        <item name="60">60 F (15.6 C)</item>
+        <item name="65">65 F (18.3 C)</item>
+        <item name="70">70 F (21.1 C)</item>
+    </string-array>
+    
+    <string-array name="shortsValues">
+        <item name="55">55</item>
+        <item name="60">60</item>
+        <item name="65">65</item>
+        <item name="70">70</item>
+    </string-array>    
+    
+</resources>

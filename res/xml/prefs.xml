@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Personal Settings">
+        
+    <ListPreference 
+	    android:key="gender"
+	    android:title="Gender"
+	    android:entries="@array/gender"
+	    android:entryValues="@array/genderValue"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Weather Settings" >
+        <EditTextPreference
+            android:key="Zip"
+            android:summary="Your location for weather"
+            android:title="Zip Code" 
+            android:inputType="number"
+        	android:maxLength="5"
+            />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="Units"
+            android:summary="Specifies (Celsius)"
+            android:title="Temperature Units" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Suggestion Settings" >
+        
+        <ListPreference 
+    android:key="tempShorts"
+    android:title="Minimum temperature for shorts"
+    android:entries="@array/shorts"
+    android:entryValues="@array/shortsValues"/>
+        
+        <ListPreference 
+    android:key="tempTShirt"
+    android:title="Minimum temperature for t-shirts"
+    android:entries="@array/tShirts"
+    android:entryValues="@array/tShirtsValues"/>
+ 		
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Work Schedule (if applicable)" >
+     <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="Monday"
+            android:title="Monday" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="Tuesday"
+            android:title="Tuesday" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="Wednesday"
+            android:title="Wednesday" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="Thursday"
+            android:title="Thursday" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="Friday"
+            android:title="Friday" >
+        </CheckBoxPreference> 
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="Saturday"
+            android:title="Saturday" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="Sunday"
+            android:title="Sunday" >
+        </CheckBoxPreference>  		
+    </PreferenceCategory>
+</PreferenceScreen>

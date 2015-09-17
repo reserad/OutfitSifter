@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  
+
+  <RelativeLayout 
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:id="@+id/rl">
+  <android.view.SurfaceView
+  android:id="@+id/surfaceview"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+      
+  </android.view.SurfaceView>
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:layout_weight="1"
+        >
+ <RelativeLayout 
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+  
+<ImageView
+    android:id="@+id/header"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:src="@drawable/shirt" />
+</RelativeLayout>
+
+</LinearLayout>
+
+        <LinearLayout
+android:id="@+id/CamActionBar"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+android:layout_weight="6"
+android:background="#4C000000"
+        >
+    <RelativeLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  >
+
+    <Button
+    android:id="@+id/btnCapture"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:background="@layout/capture" />
+
+<ToggleButton
+    android:id="@+id/btnLongToggle"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_alignParentBottom="true"
+    android:layout_marginLeft="8dp"
+    android:layout_toRightOf="@+id/btnCapture"
+    android:background="@layout/long_sleeves"
+    android:checked="false" />
+            <ToggleButton
+    android:id="@+id/btnFlash2"
+   android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_alignParentBottom="true"
+    android:layout_marginRight="8dp"
+    android:layout_toLeftOf="@+id/btnCapture"
+    android:background="@layout/flashlight_toggle"
+    android:checked="false" />
+
+<ToggleButton
+    android:id="@+id/workAttire"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:background="@layout/work_attire"
+    android:checked="false" />
+        </RelativeLayout>    
+        </LinearLayout>
+        </LinearLayout>
+</RelativeLayout>
+</LinearLayout>
